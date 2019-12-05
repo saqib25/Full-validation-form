@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <script src="form.js"></script>
+</head>
+<body>
+  <form name="register" onsubmit="return validate()" method="POST">  
+  <label>Username:</label>
+  <div>
+  <input type="text" name="uname" size="20" autocomplete="off" />
+  </div>
+  <div><br />
+  <label>Password:</label>
+  <div>
+  <input type="password" name="pass1" size="20"/>    
+  </div><br />
+  <label>Confirm Password:</label>
+  <div>
+  <input type="password" name="pass2" size="20"/>    
+  </div><br />
+  <input type="submit" value="Submit" />    
+  </div>
+</form> 
+</body>
+</html>
